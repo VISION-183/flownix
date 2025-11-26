@@ -1,0 +1,6 @@
+Package: flownix
+Version: 1.0.0
+Architecture: amd64
+Maintainer: VISION <183.vision.183@gmail.com>
+Depends:
+Description: Netflow Analyzer

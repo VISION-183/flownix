@@ -1,0 +1,15 @@
+[Unit]
+Description=Flownix Collector Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/flownix-collector --config-path /etc/flownix/flownix.json
+Type=simple
+Restart=on-failure
+User=root
+Group=root
+KillMode=process
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

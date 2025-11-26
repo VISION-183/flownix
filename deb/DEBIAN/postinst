@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+systemctl enable flownix-collector.service || true
+systemctl start flownix-collector.service || true
+systemctl enable flownix-dashboard.service || true
+systemctl start flownix-dashboard.service || true
+
+systemctl daemon-reload

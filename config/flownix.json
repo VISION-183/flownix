@@ -1,0 +1,31 @@
+{
+
+    "collector": {
+
+        "local_db_path": "local_network_data.db",
+        "remote_forwarding": false,
+        "sender_wss_ip": "127.0.0.1",
+        "sender_wss_port": 8765,
+        "sender_cert_path": "cert.pem"
+
+    },
+
+    "receiver": {
+
+        "receiver": false,
+        "receiver_db_path": "receiver_network_data.db",
+        "receiver_wss_ip": "127.0.0.1",
+        "receiver_wss_port": 8765,
+        "receiver_key_path": "key.pem",
+        "receiver_cert_path": "cert.pem"
+
+    },
+
+    "dashboard": {
+
+        "ip": "127.0.0.1",
+        "port": 8050
+
+    }
+
+}

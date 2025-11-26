@@ -1,0 +1,6 @@
+local_network_data.db
+receiver_network_data.db
+cert.pem
+key.pem
+build/
+dist/

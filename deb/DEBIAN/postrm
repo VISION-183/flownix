@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+systemctl stop flownix-collector.service || true
+systemctl disable flownix-collector.service || true
+systemctl stop flownix-dashboard.service || true
+systemctl disable flownix-dashboard.service || true
+systemctl stop flownix-receiver.service || true
+systemctl disable flownix-receiver.service || true
+
+systemctl daemon-reload || true
+
+rm -rf /usr/share/flownix
