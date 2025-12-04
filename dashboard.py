@@ -955,7 +955,7 @@ def create_dash_app():
                         dash.html.Div([
 
                             dash.html.H2("About"),
-                            dash.html.P("Flownix is a netflow traffic analyzer for Linux-based systems developed by 'Mohammad Reza Moghaddasi'"),
+                            dash.html.P("Flownix is a graphical network traffic analyzer for Linux-based systems developed by 'Mohammad Reza Moghaddasi'"),
                             dash.html.H3("Contact"),
                             dash_bootstrap_components.Button('Github', id='button-navlink-about-github', n_clicks=0, href='https://github.com/VISION-183'),
                             dash_bootstrap_components.Button('Email Me!', id='button-navlink-about-email', n_clicks=0, href='mailto:183.vision.183@gmail.com')
