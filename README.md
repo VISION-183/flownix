@@ -9,7 +9,7 @@ Flonwix is a graphical network traffic analyzer for Linux-based systems that rel
 
 ## 📝 Overview
 
-**Flonwix** is a **graphical**, **realtime**, **flow-based network traffic analyzer** for Linux systems.
+**Flownix** is a **graphical**, **realtime**, **flow-based network traffic analyzer** for Linux systems.
 It captures packets using the **ptcpdump** binary, extracts detailed metadata about each flow, stores it in SQLite, and visualizes everything in a clean, responsive Dash web interface.
 
 ## 🚀 Features
