@@ -4,7 +4,7 @@
 a = Analysis(
     ['../collector.py'],
     pathex=[],
-    binaries=[('../assets/ptcpdump','.')],
+    binaries=[('../assets/ptcpdump','assets')],
     datas=[],
     hiddenimports=['threading', 'queue', 'signal', 'subprocess','sys','os','re','time','sqlite3','socket', 'argparse', 'collections', 'traceback', 'websockets.sync.client', 'ssl', 'json', 'pathlib', 'copy'],
     hookspath=[],
