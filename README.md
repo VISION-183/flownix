@@ -4,7 +4,7 @@ Flonwix is a graphical network traffic analyzer for Linux-based systems that rel
 
 <p float="left">
   <img src="docs/assets/overview_1.png" width="45%" style="margin-right:5%" />
-  <img src="docs/assets/overview_1.png" width="45%" />
+  <img src="docs/assets/overview_2.png" width="45%" />
 </p>
 
 ## 📝 Overview
